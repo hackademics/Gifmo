@@ -1,0 +1,46 @@
+﻿<Window x:Class="Gifmo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gifmo" Height="450" Width="1000">
+    <Grid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="208,52,0,0" Name="tbStart" VerticalAlignment="Top" Width="49" Text="00:00" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="338,0,0,338" Name="tbDuration" VerticalAlignment="Bottom" Width="31" Text="1" />
+        <CheckBox Content="Reduce" Height="16" HorizontalAlignment="Left" Margin="208,102,0,0" Name="cbReduce" VerticalAlignment="Top" Width="87" IsChecked="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="208,172,0,0" Name="tbWidth" VerticalAlignment="Top" Width="48" Text="360" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="208,0,0,187" Name="tbHeight" VerticalAlignment="Bottom" Width="50" Text="180" />
+        <Label Content="Width:" Height="28" HorizontalAlignment="Left" Margin="160,168,0,0" Name="label1" VerticalAlignment="Top" FlowDirection="LeftToRight" HorizontalContentAlignment="Right">
+            <Label.BindingGroup>
+                <BindingGroup />
+            </Label.BindingGroup>
+        </Label>
+        <Label Content="Height:" FlowDirection="LeftToRight" Height="28" HorizontalAlignment="Right" Margin="0,198,771,0" Name="label2" VerticalAlignment="Top" HorizontalContentAlignment="Right">
+            <Label.BindingGroup>
+                <BindingGroup />
+            </Label.BindingGroup>
+        </Label>
+        <Label Content="Start:" FlowDirection="LeftToRight" Height="28" HorizontalAlignment="Left" Margin="167,50,0,0" Name="label3" VerticalAlignment="Top" HorizontalContentAlignment="Right">
+            <Label.BindingGroup>
+                <BindingGroup />
+            </Label.BindingGroup>
+        </Label>
+        <Label Content="Duration:" FlowDirection="LeftToRight" Height="28" HorizontalAlignment="Left" Margin="274,48,0,0" Name="label4" VerticalAlignment="Top" HorizontalContentAlignment="Right">
+            <Label.BindingGroup>
+                <BindingGroup />
+            </Label.BindingGroup>
+        </Label>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,8,0,0" Name="tbVideoSource" VerticalAlignment="Top" Width="313" />
+        <Label Content="File Name:" Height="28" HorizontalAlignment="Left" Margin="138,0,0,147" Name="label6" VerticalAlignment="Bottom" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="208,238,0,0" Name="tbGifName" VerticalAlignment="Top" Width="125" Text="" />
+        <Button Content="Select Video File" Height="23" HorizontalAlignment="Left" Margin="19,7,0,0" Name="tbSelectFile" VerticalAlignment="Top" Width="105" Click="tbSelectFile_Click" />
+        <CheckBox Content="Reverse Loop" Height="16" HorizontalAlignment="Left" Margin="208,127,0,0" Name="cbReverse" VerticalAlignment="Top" IsChecked="True" />
+        <Label Height="31" HorizontalAlignment="Left" Margin="0,380,0,0" Name="lblOutput" VerticalAlignment="Top" Width="272" HorizontalContentAlignment="Left" />
+        <Label Content="seconds" Height="28" HorizontalAlignment="Left" Margin="372,48,0,0" Name="label10" VerticalAlignment="Top" />
+        <Button Content="Capture Images" Height="23" HorizontalAlignment="Left" Margin="19,52,0,0" Name="btnCaptureImages" VerticalAlignment="Top" Width="105" Click="btnCaptureImages_Click" />
+        <Button Content="Prep Images" Height="23" HorizontalAlignment="Left" Margin="18,102,0,0" Name="btnPrepImages" VerticalAlignment="Top" Width="106" Click="btnPrepImages_Click" />
+        <Label Content=".gif" Height="28" HorizontalAlignment="Left" Margin="335,236,0,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="px" Height="28" HorizontalAlignment="Left" Margin="261,197,0,0" Name="label7" VerticalAlignment="Top" />
+        <Label Content="px" Height="28" HorizontalAlignment="Left" Margin="261,170,0,0" Name="label8" VerticalAlignment="Top" />
+        <Button Content="Generate" Height="23" HorizontalAlignment="Left" Margin="18,175,0,0" Name="btnGenerate" VerticalAlignment="Top" Width="105" Click="btnGenerate_Click" />
+        <ListBox Height="274" HorizontalAlignment="Left" Margin="495,52,0,0" Name="lbImages" VerticalAlignment="Top" Width="471" />
+    </Grid>
+</Window>
