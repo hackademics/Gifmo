@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gifmo", "Gifmo\Gifmo.csproj", "{CB0C18C0-2F20-4912-813B-4388CDB546CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB0C18C0-2F20-4912-813B-4388CDB546CF}.Debug|x86.ActiveCfg = Debug|x86
+		{CB0C18C0-2F20-4912-813B-4388CDB546CF}.Debug|x86.Build.0 = Debug|x86
+		{CB0C18C0-2F20-4912-813B-4388CDB546CF}.Release|x86.ActiveCfg = Release|x86
+		{CB0C18C0-2F20-4912-813B-4388CDB546CF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
