@@ -60,4 +60,15 @@ TODO:
 * Once images are captured, bind to grid so user can preview temp images before gif creation.
 * Give user ability to delete images from temp list to create cleaner gif
 * Move more image manipulation (b&w, resize, filters) to the Prep functionality.
+
+-----------------------
+
+Proof it works:
+
+http://i.imgur.com/7RyzK.gif
+
+
+
+
+
  
