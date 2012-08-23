@@ -46,10 +46,10 @@ Step 2: [Capture Images] Set the start time for the capture and the duration.
 
 Step 3: [Prep Images]  These are two custom features (NOT REQUIRED).
 
-	[x] Reduce - will delete every other file that was captured to reduce size (makes it faster)
-	[x] Reverse Loop -  Takes the list of images and copies them in reverse order to make the animated gif reverse.
+	[x] Reduce - will delete every other file 
+	[x] Reverse Loop -  Clone images in reverse
 
-Step 4: [Generate]  Takes the list of images in the /temp/ folder and converts them to an animated gif.
+Step 4: [Generate]  Takes /temp/ folder and converts them to an animated gif.
 
 Step 5: Look in the /completed/ folder to see your new gif.  repeat steps to perfect.
 
